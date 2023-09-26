@@ -5,3 +5,16 @@
 - Punctuation is just as important in programming languages as it is in natural languages.
 - You used 3 of the 25 Go keywords: package, import, and func.
 - Go supports characters of every language.
+
+## To run the program
+$ go run main.go
+
+#### Compile the code
+$ go build main.go
+
+or
+
+$ go build -o myapp main.go
+
+#### Run the excutable
+./myapp
