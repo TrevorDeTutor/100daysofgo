@@ -48,3 +48,12 @@ The rules for determining a leap year are as follows:
 #### Go uses short-circuit logic;
 - If the first condition is true (the year is evenly divisible by 400), there’s no need to evaluate
 what follows the || operator, so it is ignored.
+
+### Branching with switch
+- One unique feature of switch is the fallthrough keyword, which is used to execute the body of the next case. Go takes a safer approach, requiring an explicit fallthrough keyword.
+
+### Summary
+1. Booleans are the only values that can be used in conditions.
+2. Go provides branching and repetition with if, switch, and for.
+2. You used 12 of the 25 Go keywords: package, import, func, var, if,
+else, switch, case, default, fallthrough, for, and break.
