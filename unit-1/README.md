@@ -1,4 +1,13 @@
-## LESSON 1
+## Unit 0. Getting started
+
+- Know what sets Go apart
+- Visit the Go Playground
+- Print text to the screen
+- Experiment with text in any natural language
+
+
+## Unit 1. Imperative programming
+### LESSON 1
 ### 2.1. Performing calculations
 - Mars is 37.83% of the weight on Earth
 - Mars takes 687 Earth days to travel around the sun
@@ -25,9 +34,17 @@ soln: weight -= 2
 - You used 5 of the 25 Go keywords: package, import, func, const, and var.
 
 
-## LESSON 3
+### LESSON 3: Loops and branches
 - Have your computer make choices with if and switch
 - Repeat code with for loops
 - Use conditions for looping and branching
 
 In Go, the only true value is true and the only false value is false.
+
+The rules for determining a leap year are as follows:
+- Any year that is evenly divisible by 4 but not evenly divisible by 100
+- Or any year that is evenly divisible by 
+
+#### Go uses short-circuit logic;
+- If the first condition is true (the year is evenly divisible by 400), there’s no need to evaluate
+what follows the || operator, so it is ignored.
