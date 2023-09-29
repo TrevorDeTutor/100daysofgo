@@ -9,7 +9,8 @@ import "fmt"
 func main() {
 	var year = 2009  //eg. 2008 is a leap year
 
-	if (year%4 == 0 && year%100 != 0) || (year%400 == 0) {
+	//if (year%4 == 0 && year%100 != 0) || (year%400 == 0) {
+	if year%400 == 0 || (year%4 == 0 && year%100 != 0) {
 		fmt.Println(year, " is a leap year")
 	} else {
 		fmt.Println(year, "is not a leap year")
