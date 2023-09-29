@@ -16,14 +16,14 @@ func main() {
 	
 	for {
 		var randomnum = rand.Intn(100) + 1
-		
+
 		fmt.Println("Random number is: ", randomnum)
 		time.Sleep(time.Second)
 		if randomnum == mynum {
 			fmt.Println("Got the number")
 			break
 		} else {
-			fmt.Println("Let me try again!")
+			fmt.Println("Let me try again!!")
 		}
 	}	
 	
