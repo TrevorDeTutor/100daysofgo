@@ -1,3 +1,4 @@
+## LESSON 1
 ### 2.1. Performing calculations
 - Mars is 37.83% of the weight on Earth
 - Mars takes 687 Earth days to travel around the sun
@@ -22,3 +23,11 @@ soln: weight -= 2
 - The math/rand import path refers to the rand package.
 - The Intn function in the rand package generates pseudorandom numbers.
 - You used 5 of the 25 Go keywords: package, import, func, const, and var.
+
+
+## LESSON 3
+- Have your computer make choices with if and switch
+- Repeat code with for loops
+- Use conditions for looping and branching
+
+In Go, the only true value is true and the only false value is false.
