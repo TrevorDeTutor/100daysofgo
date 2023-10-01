@@ -66,3 +66,6 @@ else, switch, case, default, fallthrough, for, and break.
 Know when to use a wide or narrow scope
 
 -> Refactoring means modifying the code without modifying the code’s behavior.
+
+### Lesson 5. Capstone: Ticket to Mars
+-> Your challenge is to write a ticket generator that makes use of variables, constants, switch, if, and for.
