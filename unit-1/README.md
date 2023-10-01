@@ -24,7 +24,7 @@ Write the shortest line of code to subtract two pounds from a variable named wei
 soln: weight -= 2
 
 
-### Summary
+#### Summary
 - The Print, Println, and Printf functions display text and numbers on the screen.
 - With Printf and the %v format verb, values can be placed anywhere in the displayed text.
 - Constants are declared with the const keyword and can’t be changed.
@@ -34,7 +34,7 @@ soln: weight -= 2
 - You used 5 of the 25 Go keywords: package, import, func, const, and var.
 
 
-### LESSON 3: Loops and branches
+### Lesson 3. Loops and branches
 - Have your computer make choices with if and switch
 - Repeat code with for loops
 - Use conditions for looping and branching
@@ -49,11 +49,20 @@ The rules for determining a leap year are as follows:
 - If the first condition is true (the year is evenly divisible by 400), there’s no need to evaluate
 what follows the || operator, so it is ignored.
 
-### Branching with switch
+#### Branching with switch
 - One unique feature of switch is the fallthrough keyword, which is used to execute the body of the next case. Go takes a safer approach, requiring an explicit fallthrough keyword.
 
-### Summary
+#### Summary
 1. Booleans are the only values that can be used in conditions.
 2. Go provides branching and repetition with if, switch, and for.
 2. You used 12 of the 25 Go keywords: package, import, func, var, if,
 else, switch, case, default, fallthrough, for, and break.
+
+
+### Lesson 4. Variable scope
+- Know the benefits of variable scope
+- Use a shorter way to declare variables
+- See how variable scoping interacts with for, if, and switch
+Know when to use a wide or narrow scope
+
+-> Refactoring means modifying the code without modifying the code’s behavior.
