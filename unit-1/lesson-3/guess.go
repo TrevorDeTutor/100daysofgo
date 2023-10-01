@@ -17,13 +17,17 @@ func main() {
 	for {
 		var randomnum = rand.Intn(100) + 1
 
-		fmt.Println("Random number is: ", randomnum)
 		time.Sleep(time.Second)
-		if randomnum == mynum {
-			fmt.Println("Got the number")
-			break
+
+		if randomnum < mynum {
+			fmt.Printf("%v is too small.\n", randomnum)
+			fmt.Println("Let me try again!")
+		} else if randomnum > mynum {
+			fmt.Printf("%v is too big.\n", randomnum)
+			fmt.Println("Let me try again!")
 		} else {
-			fmt.Println("Let me try again!!")
+			fmt.Printf("Got the number! %v\n", randomnum)
+			break
 		}
 	}	
 	
