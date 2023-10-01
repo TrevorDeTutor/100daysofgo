@@ -1,9 +1,20 @@
 # 100daysofgo
 
 #### Starting: Monday, 25th . 09 . 2023
+### Book: Get Programming with Go
 
 [Challenge post](https://www.linkedin.com/feed/update/urn:li:activity:7112074205516455937/)
 
+
+### Units coverage (x/7)
+✅ Unit 0. Getting started <br>
+Unit 1. Imperative programming <br>
+Unit 2. Types <br>
+Unit 3. Building blocks <br>
+Unit 4. Collections <br>
+Unit 5. State and behavior <br>
+Unit 6. Down the gopher hole <br>
+Unit 7. Concurrent programming <br>
 
 ### Days count
 🔥 Day 1 <br>
