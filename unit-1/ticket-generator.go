@@ -1,6 +1,10 @@
 // program makes use of variables, constants, switch, if, and for. 
 // it should also draw on the fmt and math/rand packages
 
+// distance = speed X time
+// time = distance / speed
+// Mars is 62,100,000 km away from Earth at the time
+
 package main
 
 import (
@@ -9,54 +13,37 @@ import (
 	"time"
 )
 
+const secondsPerDay = 86400
+
 func main() {
+	distance := 62100000
+	company := ""
+	trip := ""
 
-	fmt.Printf("Spaceline      Days Trip type  Price\n")
-	fmt.Println("====================================")
-
+	fmt.Println("Spaceline Days Trip type Price")
+	fmt.Println("======================================")
 	for count := 0; count < 10; count++ {
 		time.Sleep(time.Second)
 
-		year := 2018 + rand.Intn(10)
-		leap := year%400 == 0 || (year%4 == 0 && year%100 != 0)
-		month := rand.Intn(12) + 1
-		daysInMonth := 31
-		//speed := 16 + rand.Intn(14) //km/s
-		spaceline := rand.Intn(3) + 1
-		selectedSL := ""
-		trip := rand.Intn(2) + 1
-		tripType := ""
-		price := 30 + rand.Intn(70)
-
-		switch spaceline {
+		switch rand.Intn(3) {
+		case 0:
+			company = "Space Adventures"
 		case 1:
-			selectedSL = "Space Adventures"
+			company = "SpaceX"
 		case 2:
-			selectedSL = "SpaceX"
-		case 3:
-			selectedSL = "Virgin Galactic"
+			company = "Virgin Galactic"
 		}
+		speed := rand.Intn(15) + 16                  // 16-30 km/s
+		duration := distance / speed / secondsPerDay // days
+		price := 20.0 + speed                        // millions
 
-		switch trip {
-		case 1: 
-			tripType = "Round-trip" 
-		case 2:
-			tripType = "One-way"
+		if rand.Intn(2) == 1 {
+			trip = "Round-trip"
+			price = price * 2
+		} else {
+			trip = "One-way"
 		}
-
-
-		switch month {
-		case 2:
-			daysInMonth = 28
-			if leap {
-				daysInMonth = 29
-			}
-		case 4, 6, 9, 11:
-			daysInMonth = 30
-		}
-
-		day := rand.Intn(daysInMonth) + 1
-
-		fmt.Println(selectedSL, "        ", day, tripType, "$", price )
+		fmt.Printf("%-16v %4v %-10v $%4v\n", company, duration, trip,
+			price)
 	}
 }
