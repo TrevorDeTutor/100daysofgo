@@ -8,7 +8,7 @@
 
 ### Units coverage (x/7)
 ✅ Unit 0. Getting started <br>
-Unit 1. Imperative programming <br>
+✅ Unit 1. Imperative programming <br>
 Unit 2. Types <br>
 Unit 3. Building blocks <br>
 Unit 4. Collections <br>
@@ -26,3 +26,4 @@ Unit 7. Concurrent programming <br>
 🔥 Day 7 <br>
 🥶 Day 8 - missed! to be repaid as 102th <br> 
 🔥 Day 9 <br>
+🔥 Day 10 <br>
