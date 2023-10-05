@@ -16,6 +16,10 @@ The width is 9 and the precision is 4, with zero padding "%09.4f".
 - To minimize rounding errors, we recommend that you perform multiplication
 before division.
 
+- To take the absolute value of a float64, the math package provides an ```Abs``` function
+
+```fmt.Println(math.Abs(piggyBank-0.3) < 0.0001)```
+
 #### Summary
 - Go can infer types for you. In particular, Go will infer float64 for variables initialized with real numbers.
 - Floating-point types are versatile but not always accurate.
