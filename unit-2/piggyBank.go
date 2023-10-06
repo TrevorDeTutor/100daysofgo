@@ -37,13 +37,16 @@ func main()  {
 		switch rand.Intn(3) {
 		case 0:
 			piggyBank += nickels
-			fmt.Printf("Added nickels, balance is %.2f\n", piggyBank )
+			fmt.Printf("Added nickels ")
 		case 1:
 			piggyBank += dimes
-			fmt.Printf("Added dimes, balance is %.2f\n", piggyBank )
+			fmt.Printf("Added dimes ")
+
 		case 2:
 			piggyBank += quarters
-			fmt.Printf("Added quarters, balance is %.2f\n", piggyBank )
+			fmt.Printf("Added quarters ")
 		}
+
+		fmt.Printf("Piggy Bank balance $%5.2f\n", piggyBank )
 	}
 }
