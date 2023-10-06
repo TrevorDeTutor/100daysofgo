@@ -24,3 +24,24 @@ before division.
 - Go can infer types for you. In particular, Go will infer float64 for variables initialized with real numbers.
 - Floating-point types are versatile but not always accurate.
 - You used 2 of Go’s 15 numeric types (float64, float32).
+
+
+#### Lesson 7. Whole numbers
+- Go offers 10 different types for whole numbers, collectively called integers: (can’t store fractional numbers and they have a limited range)
+
+- A single hexadecimal digit consumes four bits, called a nibble.
+- To distinguish between decimal and hexadecimal, Go requires a 0x prefix for hexadecimal.
+
+- The %b format verb will show you the bits for an integer value.
+- The simplest way to avoid wrapping is to use an integer type large enough to hold the values you expect to store
+
+- Only the int64 and uint64 integer
+types are able to store numbers well beyond two billion on all platforms.
+
+#### Summary
+1. The most common integer types are int and uint, but some situations
+call for smaller or larger types.
+2. Integer types need to be chosen carefully to avoid wrapping around, unless
+wrapping is what you want.
+3. You looked at 10 more of the 15 numeric types in Go (int, int8, int16,
+int32, int64, uint, uint8, uint16, uint32, uint64).
