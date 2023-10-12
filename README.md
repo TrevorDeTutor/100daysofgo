@@ -33,3 +33,5 @@ Unit 7. Concurrent programming <br>
 🥶 Day 14 (Sun) - missed! to be repaid as 103th <br>
 🥶 Day 15 (Mon) - missed! to be repaid as 104th <br>
 🔥 Day 16 (Tue) <br>
+🔥 Day 17 (Wed) <br>
+🔥 Day 18 (Thu) <br>
