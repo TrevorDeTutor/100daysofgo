@@ -17,15 +17,22 @@ Unit 6. Down the gopher hole <br>
 Unit 7. Concurrent programming <br>
 
 ### Days count
-🔥 Day 1 <br>
-🔥 Day 2 <br>
-🔥 Day 3 <br>
-🔥🥶 Day 4 - contributed late past midnight, but couldnot sleep before writing Go code   <br>
-🔥 Day 5 <br>
-🥶 Day 6 - missed! to be repaid as 101th <br> 
-🔥 Day 7 <br>
-🥶 Day 8 - missed! to be repaid as 102th <br> 
-🔥 Day 9 <br>
-🔥 Day 10 <br>
-🔥🥶 Day 11 <br>
-🔥 Day 12 <br>
+🔥 Day 1 (Mon) <br>
+🔥 Day 2 (Tue) <br>
+🔥 Day 3 (Wed) <br>
+🔥🥶 Day 4 (Thu) - contributed late past midnight, but couldnot sleep before writing Go code   <br>
+🔥 Day 5 (Fri) <br>
+🥶 Day 6 (Sat) - missed! to be repaid as 101th <br> 
+🔥 Day 7 (Sun) <br>
+🥶 Day 8 (Mon) - missed! to be repaid as 102th <br> 
+🔥 Day 9 (Tue) <br>
+🔥 Day 10 (Wed) <br>
+🔥🥶 Day 11 (Thu) <br>
+🔥 Day 12 (Fri) <br>
+🔥 Day 13 (Sat) <br>
+🥶 Day 14 (Sun) - missed! to be repaid as 103th <br>
+🥶 Day 15 (Mon) - missed! to be repaid as 104th <br>
+🔥 Day 16 (Tue) <br>
+🔥 Day 17 (Wed) <br>
+🔥 Day 18 (Thu) <br>
+🔥 Day 19 (Fri) <br>

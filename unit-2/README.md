@@ -45,3 +45,35 @@ call for smaller or larger types.
 wrapping is what you want.
 3. You looked at 10 more of the 15 numeric types in Go (int, int8, int16,
 int32, int64, uint, uint8, uint16, uint32, uint64).
+
+
+#### Lesson 8: Big numbers
+
+The big package provides three types:
+1. big.Int is for big integers, when 18 quintillion isn’t enough.
+
+2. big.Float is for arbitrary-precision floating-point numbers.
+
+3. big.Rat is for fractions like ⅓.
+
+- The NewInt function takes an int64 and returns a big.Int:
+
+#### Summary
+- When the native types can’t go the distance, the big package has you
+covered.
+- Big things are possible with constants that are untyped, and all numeric
+literals are untyped constants too.
+- Untyped constants must be converted to typed variables when passed to
+functions.
+
+#### Lesson 9: Multilingual text
+- When you string together characters and place them between quotes, it’s called a
+literal string.
+
+- rune and int32 are interchangeable. Go 1.9 introduced the ability to declare your own type aliases. A byte is an alias for the uint8 type. A rune is an alias for the int32
+type.
+
+- To display the characters rather than their numeric values, the %c format verb
+can be used with Printf
+
+- len function can determine the length for a variety of types.
