@@ -65,3 +65,15 @@ covered.
 literals are untyped constants too.
 - Untyped constants must be converted to typed variables when passed to
 functions.
+
+#### Lesson 9: Multilingual text
+- When you string together characters and place them between quotes, it’s called a
+literal string.
+
+- rune and int32 are interchangeable. Go 1.9 introduced the ability to declare your own type aliases. A byte is an alias for the uint8 type. A rune is an alias for the int32
+type.
+
+- To display the characters rather than their numeric values, the %c format verb
+can be used with Printf
+
+- len function can determine the length for a variety of types.
