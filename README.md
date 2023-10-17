@@ -24,16 +24,19 @@ Unit 7. Concurrent programming <br>
 🔥 Day 5 (Fri) <br>
 🥶 Day 6 (Sat) - missed! to be repaid as 101th <br> 
 🔥 Day 7 (Sun) <br>
-🥶 Day 8 (Mon) - missed! to be repaid as 102th <br> 
+🔥 Day 8 (Mon) <br> 
 🔥 Day 9 (Tue) <br>
 🔥 Day 10 (Wed) <br>
 🔥🥶 Day 11 (Thu) <br>
 🔥 Day 12 (Fri) <br>
 🔥 Day 13 (Sat) <br>
-🥶 Day 14 (Sun) - missed! to be repaid as 103th <br>
-🥶 Day 15 (Mon) - missed! to be repaid as 104th <br>
+🥶 Day 14 (Sun) - missed! to be repaid as 102th <br>
+🔥 Day 15 (Mon) <br>
 🔥 Day 16 (Tue) <br>
 🔥 Day 17 (Wed) <br>
 🔥 Day 18 (Thu) <br>
 🔥 Day 19 (Fri) <br>
 🔥 Day 20 (Sat) <br>
+🥶 Day 15 (Sun) - missed! to be repaid as 103th <br>
+🔥 Day 19 (Mon) <br>
+🔥 Day 20 (Tue) <br>
