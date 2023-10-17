@@ -73,7 +73,19 @@ literal string.
 - rune and int32 are interchangeable. Go 1.9 introduced the ability to declare your own type aliases. A byte is an alias for the uint8 type. A rune is an alias for the int32
 type.
 
-- To display the characters rather than their numeric values, the %c format verb
+- To display the characters rather than their numeric values, the `%c` format verb
 can be used with Printf
 
-- len function can determine the length for a variety of types.
+- `len` function can determine the length for a variety of types.
+
+
+#### Lesson 10: Converting between types
+- If you have variables of different types, you must convert the values to the same
+type before they can be used together
+
+qn: convert the variable red to an unsigned 8-bit integer?
+- uint8(red)
+
+Summary
+- Conversion between types is explicit to avoid ambiguity.
+- The `strconv` package provides functions for converting strings to and from other types.
