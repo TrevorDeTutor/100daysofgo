@@ -22,3 +22,12 @@ It makes no modifications to external state.
 - Functions are reusable, 
 - they provide isolation for variables through function scope, and 
 - they provide a name for the action they perform which makes code easier to follow and understand.
+
+
+### Methods
+Methods are like functions that enhance types with additional behavior. 
+Methods provide another way to organize code, an arguably nicer way
+
+Functions have a place, but types and methods provide another useful way to organize code and represent the world around you.
+
+Being able to define your own types can be incredibly useful for improving both readability and reliability.
