@@ -40,3 +40,4 @@ Unit 7. Concurrent programming <br>
 🔥 Day 19 (Mon) <br>
 🔥 Day 20 (Tue) <br>
 🔥 Day 21 (Wed) <br>
+🔥 Day 22 (Fri) <br>
