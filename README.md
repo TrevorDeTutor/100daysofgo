@@ -9,7 +9,7 @@
 ✅ Unit 0. Getting started <br>
 ✅ Unit 1. Imperative programming <br>
 ✅ Unit 2. Types <br>
-Unit 3. Building blocks <br>
+✅ Unit 3. Building blocks <br>
 Unit 4. Collections <br>
 Unit 5. State and behavior <br>
 Unit 6. Down the gopher hole <br>
